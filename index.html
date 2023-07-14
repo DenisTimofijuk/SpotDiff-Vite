@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DGTMgame - find</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Find all the differences</h1>
+      </div>
+    </header>
+  
+    <div class="container">
+      <div id="game-screen-wrapper">
+        <div class="visible-no" id="level-info">
+          <div style="border: 1px solid transparent;"><span id="level-name"></span> <span id="players-progress"></span>
+          </div>
+          <div id="progress-barr-wrapper"></div>
+        </div>
+        <div class="visible-no" id="gameScreen">
+          <div class="canvas-wrapper">
+            <div class="canvas-holder"><canvas id="screen-1" width="600" height="600">Your browser is incompatible. Please
+                try another browser.</canvas></div>
+            <div class="canvas-holder"><canvas id="screen-2" width="600" height="600">Your browser is incompatible. Please
+                try another browser.</canvas></div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="error-wrapper">
+        <h2 class="error-text">Your browser is incompatible. Please try another browser.</h2>
+        <p class="error-text">Jūsų naršyklė nepalaiko šio žaidimo. Bandykite naudoti kitą naršyklę.</p>
+      </div>
+  
+      <div id="gameControll">
+        <input type="button" class="blueButton visible-no" value="Enter full screen" id="enter-full-screen">
+      </div>
+      <div id="settings-screen" class="viewport-center">
+        <h2>Game settings</h2>
+        <div>
+          Difficulty:
+          <select id="difficulty" class="cf-dropdown">
+            <option value="Normal">Normal</option>
+            <option value="Hard">Hard</option>
+          </select>
+        </div>
+        <div>
+          <label class="control control-checkbox">
+            Play background music
+            <input type="checkbox" id="bg-music-enabled" />
+            <div class="control_indicator"></div>
+          </label>
+        </div>
+        <input type="button" value="Starting game..." id="start-game" class="redButton">
+      </div>
+    </div>
+  
+    <div id="game-intro">
+      <h2>About the game</h2>
+      <p>This is a simple game where you will need to find all the differences between the two pictures.</p>
+      <p>You can choose between two levels: <b>Normal</b> and <b>Hard</b></p>
+      <p>The Normal level will give you simpler pictures where it will be easy to find mismatched items. The Hard level will give you more complex images with much finer details, and various animations will be shown, which should make the situation even more difficult.</p>
+      <p>You will receive help <span style="display: inline-block; width: 20px; height: 20px;" class="help-ico"> </span> in the upper right corner. The number will vary depending on the level chosen. You can earn extra help by completing the previous picture without using any help.</p>
+      <p style="font-family: cursive;">Using MacOS or iOS could lead to poor experience. App works best with Chrome-based browsers on Windows and Android.</p>
+      <label class="control control-checkbox">
+        I’m familiar, don’t show anymore
+        <input type="checkbox" id="hide-intro" />
+        <div class="control_indicator"></div>
+      </label>
+      <div style="display: flex; flex-direction: row; justify-content: flex-end;"><a href="#" id="close-game-intro" class="grey-button">Close</a></div>
+    </div>
+  
+    <footer>
+      <div class="container text-center">
+        <p>Share your feedback denis.timofijuk@gmail.com</p>
+        <p>&copy; 2022 by Denis Timofijuk.</p>
+      </div>
+    </footer>
+  
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

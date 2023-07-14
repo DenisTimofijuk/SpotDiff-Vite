@@ -1,0 +1,29 @@
+{
+    "level-index": "L-3",
+    "name": "Chilly night",
+    "images": [
+        "/settings/L-3/img/a.png",
+        "/settings/L-3/img/b.png"
+    ],
+    "background-audio":[{
+        "url":"/settings/L-3/audio/BlackHole.mp3",
+        "volume": 0.2
+    }],
+    "audio": {
+    },
+    "pins": [
+        199,59,78,69,
+        21,74,73,55,
+        151,423,54,47,
+        357,355,54,58,
+        257,300,74,81
+    ],
+    "totalDiffs": 5,
+    "indication":{
+        "x": 10,
+        "y": 510,
+        "size": 50,
+        "globalCompositeOperation": "luminosity",
+        "globalAlpha": 1
+    }
+}

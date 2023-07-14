@@ -1,0 +1,32 @@
+{
+    "level-index": "L-5",
+    "name": "The place",
+    "images": [
+        "/settings/L-5/img/a.png",
+        "/settings/L-5/img/b.png",
+        "/settings/L-5/img/d1.png",
+        "/settings/L-5/img/d2.png",
+        "/settings/L-5/img/d3.png"
+    ],
+    "background-audio":[{
+        "url":"/settings/L-5/audio/downtown.ogg",
+        "volume": 0.7
+    }],
+    "audio": {
+    },
+    "pins": [
+        449,334,72,173,
+        335,131,48,43,
+        337,369,47,48,
+        494,0,91,67,
+        0,110,70,456
+    ],
+    "totalDiffs": 5,
+    "indication":{
+        "x": 205,
+        "y": 115,
+        "size": 40,
+        "globalCompositeOperation": "luminosity",
+        "globalAlpha": 1
+    }
+}
