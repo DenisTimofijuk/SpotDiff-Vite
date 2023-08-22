@@ -23,6 +23,8 @@ import UserHelper from './userHelper';
 
     const DEBUGG = /localhost/.test(window.location.href);
     const difficulty = document.getElementById('difficulty') as HTMLSelectElement;
+    difficulty.value = "Normal"; //Disabling level selection.
+
     const bgmusicInput = document.getElementById('bg-music-enabled') as HTMLInputElement;
     const AudioContext = window.AudioContext;
     const audioContext = new AudioContext();

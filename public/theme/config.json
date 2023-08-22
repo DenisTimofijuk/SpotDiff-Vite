@@ -37,9 +37,10 @@
     ],
     "difficulty": {
         "Normal": {
-            "init-helps": 6,
-            "max-available-helps": 6,
+            "init-helps": 4,
+            "max-available-helps": 7,
             "levels": [
+                
                 "/settings/L-13/config.json",
                 "/settings/L-12/config.json",
                 "/settings/L-10/config.json",
@@ -47,17 +48,18 @@
                 "/settings/L-11/config.json",                
                 "/settings/L-4/config.json",
                 "/settings/L-1/config.json",
-                "/settings/L-5/config.json"
+                "/settings/L-5/config.json",
+                "/settings/L-9/config.json",
+                "/settings/L-2/config.json",
+                "/settings/L-6/config.json",
+                "/settings/L-8/config.json",
+                "/settings/L-14/config.json"
             ]
         },
         "Hard": {
             "init-helps": 3,
             "max-available-helps": 5,
             "levels": [
-                "/settings/L-9/config.json",
-                "/settings/L-2/config.json",
-                "/settings/L-6/config.json",
-                "/settings/L-8/config.json"
             ]
         }
     }
