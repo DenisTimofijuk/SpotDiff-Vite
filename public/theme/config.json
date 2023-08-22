@@ -40,7 +40,7 @@
             "init-helps": 4,
             "max-available-helps": 7,
             "levels": [
-                
+                "/settings/L-14/config.json",
                 "/settings/L-13/config.json",
                 "/settings/L-12/config.json",
                 "/settings/L-10/config.json",
@@ -52,8 +52,7 @@
                 "/settings/L-9/config.json",
                 "/settings/L-2/config.json",
                 "/settings/L-6/config.json",
-                "/settings/L-8/config.json",
-                "/settings/L-14/config.json"
+                "/settings/L-8/config.json"
             ]
         },
         "Hard": {
