@@ -9,12 +9,14 @@
         "/settings/L-14/img/bus-3.png",
         "/settings/L-14/img/car.png",
         "/settings/L-14/img/rain-1.png",
-        "/settings/L-14/img/rain-2.png"
+        "/settings/L-14/img/rain-2.png",
+        "/settings/L-14/img/snail_a.png",
+        "/settings/L-14/img/snail_b.png"
     ],
     "background-audio": [
         {
-            "url":"/settings/L-13/audio/bg.ogg",
-            "volume": 0.6
+            "url":"/settings/L-14/audio/rain.ogg",
+            "volume": 0.3
         }
     ],
     "audio": {},
