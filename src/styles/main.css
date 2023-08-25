@@ -53,6 +53,7 @@ canvas {
 .container{
 	width: 80vw;
 	margin: auto;
+	position: relative;
 }
 
 .visible-no {
