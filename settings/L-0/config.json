@@ -1,0 +1,26 @@
+{
+    "level-index": "L-0",
+    "name": "Intro",
+    "images": [
+        "/settings/L-0/img/a.png",
+        "/settings/L-0/img/b.png"
+    ],
+    "background-audio":[{
+        "url":"/settings/L-0/audio/bird_seagull.mp3",
+        "volume": 0.5
+    }],
+    "audio": {
+    },
+    "pins": [
+        37,89,190,278,
+        236,463,44,43
+    ],
+    "totalDiffs": 2,
+    "indication":{
+        "x": 10,
+        "y": 50,
+        "size": 80,
+        "globalCompositeOperation": "luminosity",
+        "globalAlpha": 1
+    }
+}
