@@ -2,15 +2,15 @@
     "level-index": "L-9",
     "name": "Busy street",
     "images": [
-        "/settings/L-9/img/b.png",
-        "/settings/L-9/img/a.png",
-        "/settings/L-9/img/l_a.png",
-        "/settings/L-9/img/l_b.png",
-        "/settings/L-9/img/l_c.png"
+        "./settings/L-9/img/b.png",
+        "./settings/L-9/img/a.png",
+        "./settings/L-9/img/l_a.png",
+        "./settings/L-9/img/l_b.png",
+        "./settings/L-9/img/l_c.png"
     ],
     "background-audio": [
         {
-            "url":"/settings/L-2/audio/traffic.mp3",
+            "url":"./settings/L-2/audio/traffic.mp3",
             "volume": 0.2
         }
     ],

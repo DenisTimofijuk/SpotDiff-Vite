@@ -2,12 +2,12 @@
     "level-index": "L-11",
     "name": "Moon station II",
     "images": [
-        "/settings/L-11/img/b.png",
-        "/settings/L-11/img/a.png"
+        "./settings/L-11/img/b.png",
+        "./settings/L-11/img/a.png"
     ],
     "background-audio": [
         {
-            "url":"/settings/L-1/audio/moon-sound_.mp3",
+            "url":"./settings/L-1/audio/moon-sound_.mp3",
             "volume": 0.6
         }
     ],

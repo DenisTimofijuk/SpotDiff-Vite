@@ -2,21 +2,21 @@
     "level-index": "L-10",
     "name": "Moon station",
     "images": [
-        "/settings/L-10/img/b.jpg",
-        "/settings/L-10/img/a.jpg",
-        "/settings/L-10/img/a_1.png",
-        "/settings/L-10/img/a_2.png",
-        "/settings/L-10/img/a_3.png",
-        "/settings/L-10/img/b_1.png",
-        "/settings/L-10/img/b_2.png",
-        "/settings/L-10/img/b_3.png",
-        "/settings/L-10/img/c_1.png",
-        "/settings/L-10/img/c_2.png",
-        "/settings/L-10/img/spacemen.png"
+        "./settings/L-10/img/b.jpg",
+        "./settings/L-10/img/a.jpg",
+        "./settings/L-10/img/a_1.png",
+        "./settings/L-10/img/a_2.png",
+        "./settings/L-10/img/a_3.png",
+        "./settings/L-10/img/b_1.png",
+        "./settings/L-10/img/b_2.png",
+        "./settings/L-10/img/b_3.png",
+        "./settings/L-10/img/c_1.png",
+        "./settings/L-10/img/c_2.png",
+        "./settings/L-10/img/spacemen.png"
     ],
     "background-audio": [
         {
-            "url":"/settings/L-10/audio/bg.ogg",
+            "url":"./settings/L-10/audio/bg.ogg",
             "volume": 0.8
         }
     ],

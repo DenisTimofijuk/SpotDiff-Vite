@@ -2,11 +2,11 @@
     "level-index": "L-3",
     "name": "Chilly night",
     "images": [
-        "/settings/L-3/img/a.png",
-        "/settings/L-3/img/b.png"
+        "./settings/L-3/img/a.png",
+        "./settings/L-3/img/b.png"
     ],
     "background-audio":[{
-        "url":"/settings/L-3/audio/BlackHole.mp3",
+        "url":"./settings/L-3/audio/BlackHole.mp3",
         "volume": 0.2
     }],
     "audio": {
