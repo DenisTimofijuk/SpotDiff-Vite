@@ -10,7 +10,7 @@ export default <AnimationFunction>async function (_: {
     const bufferLayer = new Layer(w, h);
 
     const audio = new GameAudio();
-    audio.load('/settings/L-8/audio/light.ogg').then(()=>{
+    audio.load('./settings/L-8/audio/light.ogg').then(()=>{
         audio.audio.volume = 0.4;
     });    
 

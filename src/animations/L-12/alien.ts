@@ -18,7 +18,7 @@ export default <AnimationFunction>async function (levelData: {
     let audioFlag = true;
 
     const audio = new GameAudio();
-    audio.load('/settings/L-12/audio/107195.ogg').then(()=>{
+    audio.load('./settings/L-12/audio/107195.ogg').then(()=>{
         audio.audio.volume = 0.5;
     }); 
     

@@ -2,14 +2,14 @@
     "level-index": "L-13",
     "name": "Rasion station",
     "images": [
-        "/settings/L-13/img/a.png",
-        "/settings/L-13/img/b.png",
-        "/settings/L-13/img/ship.png",
-        "/settings/L-13/img/frame.png"
+        "./settings/L-13/img/a.png",
+        "./settings/L-13/img/b.png",
+        "./settings/L-13/img/ship.png",
+        "./settings/L-13/img/frame.png"
     ],
     "background-audio": [
         {
-            "url":"/settings/L-13/audio/bg.ogg",
+            "url":"./settings/L-13/audio/bg.ogg",
             "volume": 0.6
         }
     ],

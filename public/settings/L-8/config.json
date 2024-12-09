@@ -2,16 +2,16 @@
     "level-index": "L-8",
     "name": "Fabijoniškės",
     "images": [
-        "/settings/L-8/img/b.png",
-        "/settings/L-8/img/a.png",
-        "/settings/L-8/img/cow.png",
-        "/settings/L-8/img/light.png",
-        "/settings/L-8/img/light_s.png",
-        "/settings/L-8/img/spot.png"
+        "./settings/L-8/img/b.png",
+        "./settings/L-8/img/a.png",
+        "./settings/L-8/img/cow.png",
+        "./settings/L-8/img/light.png",
+        "./settings/L-8/img/light_s.png",
+        "./settings/L-8/img/spot.png"
     ],
     "background-audio": [
         {
-            "url": "/settings/L-8/audio/thunderbackground.ogg",
+            "url": "./settings/L-8/audio/thunderbackground.ogg",
             "volume": 0.4
         }
     ],

@@ -18,7 +18,7 @@ export default <AnimationFunction>async function (levelData: {
     const screen_b = compositor.screeenB;
     const myAudio = new GameAudio();
 
-    myAudio.load('/settings/L-1/audio/ufo1.mp3').then(()=>{
+    myAudio.load('./settings/L-1/audio/ufo1.mp3').then(()=>{
         myAudio.audio.volume = 0.1;
     })
     const updatediffIndi = new Event('updatediffIndi');

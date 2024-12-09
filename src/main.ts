@@ -34,7 +34,7 @@ import UserHelper from './userHelper';
     const penelty = new Penelty(compositor);
     const helpUser = new UserHelper(compositor);
     const indicateTotal = new TotalIndicator(compositor);
-    const themeConfigData = await loadJSON<ThemeJSON>('/theme/config.json');
+    const themeConfigData = await loadJSON<ThemeJSON>('./theme/config.json');
     const audioBoard = await loadAudioBoard(themeConfigData.piano, audioContext);
     const vortex = new Vortex(compositor);
     await indicateTotal.initBuffer(themeConfigData.numbers);

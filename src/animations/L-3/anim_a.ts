@@ -7,7 +7,7 @@ export default <AnimationFunction> async function (_: {
 }, __: HTMLImageElement[], compositor: GameCompositor, ___: PinsHandlerClass) {
     const buffer = new Layer(100, 95);
     const gif = GIF();
-    gif.load("/settings/L-3/img/ezgif.com-gif-maker.gif");
+    gif.load("./settings/L-3/img/ezgif.com-gif-maker.gif");
     await new Promise(function(resolve: (value: unknown) => void, _: (reason?: any) => void){
         // @ts-ignore
         gif.onload = function(event){

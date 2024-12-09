@@ -2,13 +2,13 @@
     "level-index": "L-1",
     "name": "Coffee on the moon",
     "images": [
-        "/settings/L-1/img/milda-a.png",
-        "/settings/L-1/img/milda-b.png",
-        "/settings/L-1/img/alien.png",
-        "/settings/L-1/img/ship.png"
+        "./settings/L-1/img/milda-a.png",
+        "./settings/L-1/img/milda-b.png",
+        "./settings/L-1/img/alien.png",
+        "./settings/L-1/img/ship.png"
     ],
     "background-audio":[{
-        "url":"/settings/L-1/audio/moon-sound_.mp3",
+        "url":"./settings/L-1/audio/moon-sound_.mp3",
         "volume": 1
     }],
     "audio": {

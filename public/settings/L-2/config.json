@@ -2,12 +2,12 @@
     "level-index": "L-2",
     "name": "Snowy street",
     "images": [
-        "/settings/L-2/img/a.png",
-        "/settings/L-2/img/b.png",
-        "/settings/L-2/img/car1.png"
+        "./settings/L-2/img/a.png",
+        "./settings/L-2/img/b.png",
+        "./settings/L-2/img/car1.png"
     ],
     "background-audio":[{
-        "url":"/settings/L-2/audio/traffic.mp3",
+        "url":"./settings/L-2/audio/traffic.mp3",
         "volume": 0.2
     }],
     "audio": {

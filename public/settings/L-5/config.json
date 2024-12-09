@@ -2,14 +2,14 @@
     "level-index": "L-5",
     "name": "The place",
     "images": [
-        "/settings/L-5/img/a.png",
-        "/settings/L-5/img/b.png",
-        "/settings/L-5/img/d1.png",
-        "/settings/L-5/img/d2.png",
-        "/settings/L-5/img/d3.png"
+        "./settings/L-5/img/a.png",
+        "./settings/L-5/img/b.png",
+        "./settings/L-5/img/d1.png",
+        "./settings/L-5/img/d2.png",
+        "./settings/L-5/img/d3.png"
     ],
     "background-audio":[{
-        "url":"/settings/L-5/audio/downtown.ogg",
+        "url":"./settings/L-5/audio/downtown.ogg",
         "volume": 0.7
     }],
     "audio": {

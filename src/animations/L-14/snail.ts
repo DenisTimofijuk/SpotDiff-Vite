@@ -12,7 +12,7 @@ export default <AnimationFunction>async function (
     pinsHandler: PinsHandlerClass
 ) {
     const audio = new GameAudio();
-    audio.load('/settings/L-14/audio/snail.mp3').then(()=>{
+    audio.load('./settings/L-14/audio/snail.mp3').then(()=>{
         audio.audio.volume = 0.5;
     }); 
     const w = compositor.screeenA.canvas.width;

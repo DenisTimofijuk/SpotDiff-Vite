@@ -14,7 +14,7 @@ export default <AnimationFunction>async function (_: {
     frame_layer.ctx.drawImage(images[3], 0, 0);
 
     const audio = new GameAudio();
-    audio.load('/settings/L-13/audio/alien-spaceship-6321.mp3').then(()=>{
+    audio.load('./settings/L-13/audio/alien-spaceship-6321.mp3').then(()=>{
         audio.audio.volume = 0.1;
     }); 
 

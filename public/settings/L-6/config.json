@@ -2,20 +2,20 @@
     "level-index": "L-6",
     "name": "Pakruojis manor",
     "images": [
-        "/settings/L-6/img/b.png",
-        "/settings/L-6/img/a.png",
-        "/settings/L-6/img/flare.png",
-        "/settings/L-6/img/l1.png",
-        "/settings/L-6/img/l2.png",
-        "/settings/L-6/img/l3.png"
+        "./settings/L-6/img/b.png",
+        "./settings/L-6/img/a.png",
+        "./settings/L-6/img/flare.png",
+        "./settings/L-6/img/l1.png",
+        "./settings/L-6/img/l2.png",
+        "./settings/L-6/img/l3.png"
     ],
     "background-audio": [
         {
-            "url": "/settings/L-5/audio/downtown.ogg",
+            "url": "./settings/L-5/audio/downtown.ogg",
             "volume": 0.7
         },
         {
-            "url": "/settings/L-6/audio/kevin_boucher_foley_footsteps_crunchy_snow.mp3",
+            "url": "./settings/L-6/audio/kevin_boucher_foley_footsteps_crunchy_snow.mp3",
             "volume": 0.1
         }
     ],
