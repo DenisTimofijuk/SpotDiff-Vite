@@ -1,0 +1,37 @@
+{
+    "level-index": "L-14",
+    "name": "Street at Night",
+    "images": [
+        "/settings/L-14/img/b.png",
+        "/settings/L-14/img/a.png",
+        "/settings/L-14/img/bus-1.png",
+        "/settings/L-14/img/bus-2.png",
+        "/settings/L-14/img/bus-3.png",
+        "/settings/L-14/img/car.png",
+        "/settings/L-14/img/rain-1.png",
+        "/settings/L-14/img/rain-2.png",
+        "/settings/L-14/img/snail_a.png",
+        "/settings/L-14/img/snail_b.png"
+    ],
+    "background-audio": [
+        {
+            "url":"/settings/L-14/audio/rain.ogg",
+            "volume": 0.3
+        }
+    ],
+    "audio": {},
+    "pins": [
+        232,168,41,45,
+        417,178,51,83,
+        541,321,39,41,
+        486,212,27,61
+    ],
+    "totalDiffs": 5,
+    "indication": {
+        "x": 267,
+        "y": 463,
+        "size": 100,
+        "globalCompositeOperation": "luminosity",
+        "globalAlpha": 1
+    }
+}

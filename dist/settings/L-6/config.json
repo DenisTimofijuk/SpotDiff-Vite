@@ -1,0 +1,40 @@
+{
+    "level-index": "L-6",
+    "name": "Pakruojis manor",
+    "images": [
+        "/settings/L-6/img/b.png",
+        "/settings/L-6/img/a.png",
+        "/settings/L-6/img/flare.png",
+        "/settings/L-6/img/l1.png",
+        "/settings/L-6/img/l2.png",
+        "/settings/L-6/img/l3.png"
+    ],
+    "background-audio": [
+        {
+            "url": "/settings/L-5/audio/downtown.ogg",
+            "volume": 0.7
+        },
+        {
+            "url": "/settings/L-6/audio/kevin_boucher_foley_footsteps_crunchy_snow.mp3",
+            "volume": 0.1
+        }
+    ],
+    "audio": {},
+    "pins": [
+        0,369,32,130,
+        0,515,42,70,
+        56,368,41,83,
+        261,437,46,90,
+        403,524,57,54,
+        277,81,45,112,
+        102,244,55,102
+    ],
+    "totalDiffs": 7,
+    "indication": {
+        "x": 380,
+        "y": 290,
+        "size": 70,
+        "globalCompositeOperation": "luminosity",
+        "globalAlpha": 1
+    }
+}

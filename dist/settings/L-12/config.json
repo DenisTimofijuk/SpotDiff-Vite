@@ -1,0 +1,32 @@
+{
+    "level-index": "L-12",
+    "name": "Moon station III",
+    "images": [
+        "/settings/L-12/img/b.png",
+        "/settings/L-12/img/a.png",
+        "/settings/L-12/img/anim_1.png",
+        "/settings/L-12/img/anim_2.png",
+        "/settings/L-12/img/frame.png"
+    ],
+    "background-audio": [
+        {
+            "url":"/settings/L-1/audio/moon-sound_.mp3",
+            "volume": 0.6
+        }
+    ],
+    "audio": {},
+    "pins": [
+        286,155,36,26,
+        84,252,32,66,
+        273,273,51,47,
+        201,422,191,84
+    ],
+    "totalDiffs": 5,
+    "indication": {
+        "x": 230,
+        "y": 356,
+        "size": 80,
+        "globalCompositeOperation": "luminosity",
+        "globalAlpha": 1
+    }
+}

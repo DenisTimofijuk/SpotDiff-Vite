@@ -1,0 +1,38 @@
+{
+    "level-index": "L-10",
+    "name": "Moon station",
+    "images": [
+        "/settings/L-10/img/b.jpg",
+        "/settings/L-10/img/a.jpg",
+        "/settings/L-10/img/a_1.png",
+        "/settings/L-10/img/a_2.png",
+        "/settings/L-10/img/a_3.png",
+        "/settings/L-10/img/b_1.png",
+        "/settings/L-10/img/b_2.png",
+        "/settings/L-10/img/b_3.png",
+        "/settings/L-10/img/c_1.png",
+        "/settings/L-10/img/c_2.png",
+        "/settings/L-10/img/spacemen.png"
+    ],
+    "background-audio": [
+        {
+            "url":"/settings/L-10/audio/bg.ogg",
+            "volume": 0.8
+        }
+    ],
+    "audio": {},
+    "pins": [
+        269,252,69,46,
+        189,424,122,97,
+        447,353,72,90,
+        501,232,90,79
+    ],
+    "totalDiffs": 5,
+    "indication": {
+        "x": 250,
+        "y": 385,
+        "size": 70,
+        "globalCompositeOperation": "luminosity",
+        "globalAlpha": 1
+    }
+}
